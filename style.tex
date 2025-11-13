@@ -1,0 +1,6 @@
+\usepackage[margins=raggedright]{floatrow} 
+\usepackage{xcolor}
+\definecolor{bgcolor}{gray}{0.95}
+\let\oldtexttt\texttt
+
+\renewcommand{\texttt}[1]{\colorbox{bgcolor}{\oldtexttt{#1}}}
